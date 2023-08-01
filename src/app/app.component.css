@@ -1,0 +1,56 @@
+#container {
+}
+p {
+  font-size: small;
+}
+.date-block {
+  font-size: medium;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+#costs {
+  margin-top: 30px;
+  width: 100%;
+  border-collapse: collapse;
+}
+thead {
+  font-weight: normal;
+  font-size: small;
+  text-align: left;
+}
+#costs thead {
+  border-bottom: 2px solid #000;
+}
+thead th {
+  padding-bottom: 10px;
+}
+#costs tr {
+  border-bottom: 1px solid #ebebeb;
+}
+tr td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#costs td:last-child {
+}
+#costs tr:last-child {
+  border-bottom: 1px solid transparent;
+}
+#inner-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#costs #inner-table tr {
+  border-bottom: 1px solid #ebebeb;
+}
+#footer {
+  margin-top: 50px;
+  border-top: 1px solid #ebebeb;
+  position: relative;
+  bottom: 0;
+}

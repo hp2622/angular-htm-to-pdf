@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  border-top: 5px solid #e5374a;
+  margin: 0px;
+}
